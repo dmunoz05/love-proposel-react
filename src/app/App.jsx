@@ -160,7 +160,7 @@ function App() {
       <div className="card flex gap-2 justify-center">
         {showBtnYes ? (
           <button onClick={accepted}
-            className="overflow-hidden w-32 p-2 h-12 outline-none bg-gray-800 text-white border-none rounded-full text-xl font-bold cursor-pointer relative z-9 group"
+            className="btnAccepted overflow-hidden w-32 p-2 h-12 outline-none bg-gray-800 text-white border-none rounded-full text-xl font-bold cursor-pointer relative z-9 group"
           >
             Si
             <span
